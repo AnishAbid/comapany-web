@@ -1,0 +1,155 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Premium software engineering for modern businesses",
+    "heading1": "Build Better",
+    "heading2": "Software. Faster.",
+    "heading3": "with Expert Engineering",
+    "description": "From full-stack web applications to cloud architecture and AI-powered tools, we craft scalable solutions that drive real business outcomes.",
+    "startProject": "Start Your Project",
+    "exploreServices": "Explore Services",
+    "scrollLabel": "Scroll to services",
+    "stats": [
+      "Projects Delivered",
+      "Client Satisfaction",
+      "Years Experience",
+      "Technologies"
+    ]
+  },
+  "services": {
+    "badge": "What We Do",
+    "heading": "Engineering Services",
+    "description": "Expert software engineering tailored to your needs.",
+    "items": [
+      {
+        "title": "Web & Mobile Apps",
+        "desc": "Full-stack web and mobile applications built with React, Next.js, Node.js, and modern frameworks."
+      },
+      {
+        "title": "Cloud Architecture",
+        "desc": "Scalable cloud infrastructure on AWS, Azure, and GCP - migration, optimization, and management."
+      },
+      {
+        "title": "API Development",
+        "desc": "Robust RESTful and GraphQL APIs with focus on security, performance, and developer experience."
+      },
+      {
+        "title": "Frontend Engineering",
+        "desc": "Beautiful, responsive UIs with React, Next.js, TypeScript, and Tailwind CSS."
+      },
+      {
+        "title": "Team Leadership",
+        "desc": "Technical team lead services - mentoring, code reviews, sprint planning, and delivery management."
+      },
+      {
+        "title": "Tech Consulting",
+        "desc": "Architecture reviews, technology selection, and strategic guidance for your engineering team."
+      }
+    ]
+  },
+  "about": {
+    "badge": "About DevFactors",
+    "heading": "We engineer software that powers your growth",
+    "p1": "DevFactors is a software engineering consultancy founded by Anish Abid, a Senior Software Engineer with 8+ years of experience building scalable web applications and leading engineering teams.",
+    "p2": "We specialize in modern JavaScript/TypeScript ecosystems - React, Next.js, Node.js, NestJS, and MongoDB - delivering end-to-end solutions for startups and enterprises.",
+    "checks": [
+      "8+ years of full-stack engineering experience",
+      "Team leadership & agile project management",
+      "End-to-end product development",
+      "Modern, scalable architecture patterns"
+    ],
+    "stats": [
+      "Years Experience",
+      "Projects Built",
+      "Tech Stack",
+      "Client Focus"
+    ]
+  },
+  "testimonials": {
+    "badge": "Client Testimonials",
+    "heading": "What People Say",
+    "description": "Feedback from clients and colleagues.",
+    "prevLabel": "Previous testimonial",
+    "nextLabel": "Next testimonial",
+    "ofLabel": "of",
+    "items": [
+      {
+        "name": "Sarah Chen",
+        "role": "CTO, TechFlow Inc.",
+        "quote": "Anish completely transformed our monolithic backend into a scalable microservices architecture. The migration was seamless, and our deployment frequency went from weekly to multiple times per day.",
+        "initials": "SC"
+      },
+      {
+        "name": "Marcus Rivera",
+        "role": "Founder, Launchpad Studios",
+        "quote": "Working with DevFactors was the best decision we made for our platform. The team delivered ahead of schedule, and the code quality was exceptional.",
+        "initials": "MR"
+      },
+      {
+        "name": "Emily Zhang",
+        "role": "Engineering Manager, DataSync",
+        "quote": "Anish led our frontend team through a complete migration from Angular to React. His technical leadership and mentoring elevated the entire team.",
+        "initials": "EZ"
+      },
+      {
+        "name": "James Walker",
+        "role": "VP Product, Nebula AI",
+        "quote": "The dashboard Anish built for our AI analytics platform is incredible. It handles millions of data points in real-time with zero lag.",
+        "initials": "JW"
+      },
+      {
+        "name": "Priya Patel",
+        "role": "CEO, Orbit Software",
+        "quote": "From architecture review to final deployment, Anish brought a level of professionalism and technical depth that is rare to find.",
+        "initials": "PP"
+      },
+      {
+        "name": "David Kim",
+        "role": "Lead Developer, CloudBase",
+        "quote": "I had the pleasure of being mentored by Anish early in my career. His code review feedback was invaluable.",
+        "initials": "DK"
+      }
+    ]
+  },
+  "contact": {
+    "badge": "Get in Touch",
+    "heading": "Let's build something great together",
+    "description": "Have a project in mind? Reach out and I'll get back to you within 24 hours.",
+    "email": "Email",
+    "location": "Location",
+    "availability": "Availability",
+    "locationValue": "Remote / Worldwide",
+    "availabilityValue": "Open to new projects",
+    "fullName": "Full Name",
+    "emailLabel": "Email Address",
+    "subject": "Subject",
+    "message": "Message",
+    "namePlaceholder": "John Doe",
+    "emailPlaceholder": "john@company.com",
+    "subjectPlaceholder": "Project inquiry",
+    "messagePlaceholder": "Tell me about your project...",
+    "sendButton": "Send Message",
+    "sendingButton": "Sending...",
+    "successMessage": "Thanks! Your message has been sent. I'll get back to you soon.",
+    "errorMessage": "Something went wrong. Please try again."
+  },
+  "footer": {
+    "description": "Professional software engineering and technology consulting. Building scalable, maintainable solutions for modern businesses.",
+    "quickLinks": "Quick Links",
+    "connect": "Connect",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "Email",
+    "rights": "All rights reserved.",
+    "builtWith": "Built with"
+  },
+  "getStarted": "Get Started"
+}
