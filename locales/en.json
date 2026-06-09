@@ -6,7 +6,6 @@
     "contact": "Contact"
   },
   "hero": {
-    "badge": "Premium software engineering for modern businesses",
     "heading1": "Build Better",
     "heading2": "Software. Faster.",
     "heading3": "with Expert Engineering",
@@ -28,27 +27,33 @@
     "items": [
       {
         "title": "Web & Mobile Apps",
-        "desc": "Full-stack web and mobile applications built with React, Next.js, Node.js, and modern frameworks."
+        "desc": "Full-stack web and mobile applications built with React, Next.js, Node.js, and modern frameworks.",
+        "preview": "From responsive SPAs to cross-platform mobile apps, we craft pixel-perfect digital experiences that users love."
       },
       {
         "title": "Cloud Architecture",
-        "desc": "Scalable cloud infrastructure on AWS, Azure, and GCP - migration, optimization, and management."
+        "desc": "Scalable cloud infrastructure on AWS, Azure, and GCP - migration, optimization, and management.",
+        "preview": "Design, migrate, and optimize your cloud infrastructure for maximum performance, reliability, and cost efficiency."
       },
       {
         "title": "API Development",
-        "desc": "Robust RESTful and GraphQL APIs with focus on security, performance, and developer experience."
+        "desc": "Robust RESTful and GraphQL APIs with focus on security, performance, and developer experience.",
+        "preview": "Build secure, well-documented APIs that scale from day one with comprehensive testing and versioning."
       },
       {
         "title": "Frontend Engineering",
-        "desc": "Beautiful, responsive UIs with React, Next.js, TypeScript, and Tailwind CSS."
+        "desc": "Beautiful, responsive UIs with React, Next.js, TypeScript, and Tailwind CSS.",
+        "preview": "Create stunning, accessible interfaces that delight users and drive engagement across every device."
       },
       {
         "title": "Team Leadership",
-        "desc": "Technical team lead services - mentoring, code reviews, sprint planning, and delivery management."
+        "desc": "Technical team lead services - mentoring, code reviews, sprint planning, and delivery management.",
+        "preview": "Elevate your engineering team with experienced leadership, mentoring, and agile process optimization."
       },
       {
         "title": "Tech Consulting",
-        "desc": "Architecture reviews, technology selection, and strategic guidance for your engineering team."
+        "desc": "Architecture reviews, technology selection, and strategic guidance for your engineering team.",
+        "preview": "Get expert guidance on technology strategy, architecture decisions, and engineering best practices."
       }
     ]
   },
@@ -123,7 +128,7 @@
     "email": "Email",
     "location": "Location",
     "availability": "Availability",
-    "locationValue": "Remote / Worldwide",
+    "locationValue": "Divine Gardens Commercial Arcade",
     "availabilityValue": "Open to new projects",
     "fullName": "Full Name",
     "emailLabel": "Email Address",
@@ -151,5 +156,247 @@
     "rights": "All rights reserved.",
     "builtWith": "Built with"
   },
-  "getStarted": "Get Started"
+  "getStarted": "Get Started",
+  "serviceDetail": {
+    "backToServices": "Back to Services",
+    "overview": "Overview",
+    "features": "Key Features",
+    "technologies": "Technologies We Use",
+    "process": "Our Process",
+    "caseStudies": "Recent Projects",
+    "ctaTitle": "Ready to get started?",
+    "ctaDesc": "Let's discuss how we can help bring your project to life.",
+    "ctaButton": "Contact Us",
+    "stats": {
+      "projects": "Projects Delivered",
+      "clients": "Happy Clients",
+      "years": "Years Experience",
+      "experts": "Expert Engineers"
+    },
+    "clientsTitle": "Trusted by Industry Leaders",
+    "engagementTitle": "Engagement Models",
+    "faqTitle": "Frequently Asked Questions",
+    "relatedTitle": "Related Services",
+    "testimonialsLabel": "What Our Clients Say",
+    "clients": ["TechFlow", "GlobalPay", "RetailCorp", "DataStream", "MediConnect", "ConnectHub", "PropView", "SmartGrid"],
+    "engagementModels": [
+      {
+        "title": "Project-Based",
+        "desc": "Fixed scope and timeline. Best for well-defined projects with clear requirements.",
+        "features": ["Fixed-price contract", "Defined deliverables", "Milestone-based payments"]
+      },
+      {
+        "title": "Dedicated Team",
+        "desc": "Full engineering team working exclusively on your product. Monthly retainer model.",
+        "features": ["Dedicated engineers", "Full Scrum/Agile", "Flexible scaling"]
+      },
+      {
+        "title": "Staff Augmentation",
+        "desc": "Individual expert engineers integrated into your existing team. Pay-as-you-go.",
+        "features": ["Instant onboarding", "Your tools & processes", "Hourly or monthly billing"]
+      }
+    ],
+    "faq": [
+      { "q": "How long does a typical project take?", "a": "Project timelines vary based on scope and complexity. A typical web application MVP can be delivered in 6-8 weeks, while larger enterprise solutions may take 3-6 months. We provide a detailed timeline estimate during the discovery phase." },
+      { "q": "How do you ensure project quality?", "a": "We follow rigorous QA processes including automated testing, code reviews, continuous integration, and user acceptance testing. Every project includes a dedicated QA engineer and weekly progress reviews." },
+      { "q": "What communication tools do you use?", "a": "We use modern collaboration tools including Slack for daily communication, Jira/Linear for project management, Notion for documentation, and Google Meet/Zoom for regular standups and reviews." },
+      { "q": "Can I scale the team up or down?", "a": "Yes. Our engagement models are designed for flexibility. You can scale your team up or down with 2 weeks notice for dedicated teams, and monthly adjustments for staff augmentation." },
+      { "q": "What if I'm not satisfied with the work?", "a": "We offer a satisfaction guarantee. We work iteratively with regular demos and checkpoints to ensure alignment. If something isn't right, we fix it at no additional cost during the active sprint." }
+    ],
+    "items": [
+      {
+        "longDesc": "We build high-performance web and mobile applications tailored to your business needs. From responsive React SPAs to cross-platform mobile apps with React Native, our team delivers pixel-perfect experiences that users love. We focus on performance, accessibility, and maintainability from day one.",
+        "features": [
+          "Responsive single-page and multi-page web applications",
+          "Cross-platform mobile apps with React Native & Flutter",
+          "Progressive Web Apps (PWAs) with offline support",
+          "Server-side rendering for optimal SEO and performance",
+          "Real-time features with WebSockets and Server-Sent Events",
+          "Payment gateway integration (Stripe, PayPal, Square)",
+          "User authentication and authorization systems",
+          "Performance optimization and Core Web Vitals tuning"
+        ],
+        "techs": ["React", "Next.js", "React Native", "TypeScript", "Node.js", "PostgreSQL", "MongoDB", "Redis", "Docker", "AWS"],
+        "process": [
+          { "title": "Discovery", "desc": "We learn about your business, users, and goals through workshops and research." },
+          { "title": "Design", "desc": "Our designers craft wireframes, prototypes, and visual mockups for your approval." },
+          { "title": "Development", "desc": "We build your application iteratively with daily updates and weekly demos." },
+          { "title": "Testing", "desc": "Rigorous QA including unit tests, integration tests, and user acceptance testing." },
+          { "title": "Launch", "desc": "We deploy to production with a rollback plan, monitoring, and performance checks." },
+          { "title": "Support", "desc": "Ongoing maintenance, updates, and 24/7 monitoring to keep your app running smoothly." }
+        ],
+        "caseStudies": [
+          { "title": "E-Commerce Platform Redesign", "client": "RetailCorp", "result": "45% increase in conversion rate", "image": "project-1" },
+          { "title": "Healthcare Appointment App", "client": "MediConnect", "result": "60K+ monthly appointments booked", "image": "project-2" },
+          { "title": "Real Estate Marketplace", "client": "PropView", "result": "3M+ monthly active users", "image": "project-3" }
+        ],
+        "statValues": ["85+", "50+", "8+", "15+"],
+        "testimonials": [
+          { "name": "Marcus Rivera", "role": "Founder, Launchpad Studios", "quote": "Working with DevFactors was the best decision we made for our platform. The team delivered ahead of schedule, and the code quality was exceptional." },
+          { "name": "Priya Patel", "role": "CEO, Orbit Software", "quote": "From architecture review to final deployment, they brought a level of professionalism and technical depth that is rare to find." }
+        ]
+      },
+      {
+        "longDesc": "Design, migrate, and optimize your cloud infrastructure for maximum performance and cost efficiency. We architect scalable systems on AWS, Azure, and GCP that grow with your business. Our cloud solutions reduce operational overhead while improving reliability and security posture.",
+        "features": [
+          "Cloud migration strategy and execution (lift-and-shift to full re-architecture)",
+          "Infrastructure as Code with Terraform, Pulumi, and CloudFormation",
+          "Auto-scaling and load balancing for high-traffic applications",
+          "Cost optimization and FinOps practices to reduce cloud spend",
+          "Disaster recovery and business continuity planning",
+          "Containerization with Docker and Kubernetes orchestration",
+          "Serverless architecture with Lambda, Functions, and Fargate",
+          "Cloud security hardening and compliance (SOC 2, HIPAA, GDPR)"
+        ],
+        "techs": ["AWS", "Azure", "GCP", "Terraform", "Kubernetes", "Docker", "CloudFormation", "GitHub Actions", "Datadog", "Pulumi"],
+        "process": [
+          { "title": "Assessment", "desc": "We audit your current infrastructure to identify issues and opportunities." },
+          { "title": "Architecture", "desc": "We design a target architecture optimized for your workload and budget." },
+          { "title": "Migration", "desc": "We execute the migration with minimal downtime and zero data loss." },
+          { "title": "Optimization", "desc": "We fine-tune performance, security, and cost-efficiency post-migration." },
+          { "title": "Monitoring", "desc": "We set up comprehensive monitoring, alerting, and dashboarding." },
+          { "title": "Managed Ops", "desc": "Ongoing infrastructure management and 24/7 incident response." }
+        ],
+        "caseStudies": [
+          { "title": "Monolith to Microservices Migration", "client": "TechFlow Inc.", "result": "3x faster deployments", "image": "project-4" },
+          { "title": "Multi-Region HA Architecture", "client": "GlobalPay", "result": "99.99% uptime achieved", "image": "project-5" },
+          { "title": "Cloud Cost Optimization", "client": "DataStream", "result": "40% reduction in monthly spend", "image": "project-6" }
+        ],
+        "statValues": ["50+", "30+", "8+", "10+"],
+        "testimonials": [
+          { "name": "Sarah Chen", "role": "CTO, TechFlow Inc.", "quote": "They completely transformed our monolithic backend into a scalable microservices architecture. The migration was seamless, and our deployment frequency went from weekly to multiple times per day." },
+          { "name": "James Walker", "role": "VP Product, Nebula AI", "quote": "The infrastructure they architected handles millions of data points in real-time with zero lag." }
+        ]
+      },
+      {
+        "longDesc": "Build robust, secure, and well-documented APIs that power your applications and services. Whether RESTful or GraphQL, we design APIs with developer experience as a first-class concern. Our APIs are built to scale from day one, with comprehensive documentation, versioning strategies, and automated testing.",
+        "features": [
+          "RESTful API design following best practices and standards",
+          "GraphQL APIs with Apollo, Relay, and code-first approaches",
+          "API versioning and lifecycle management strategies",
+          "Comprehensive API documentation with OpenAPI/Swagger",
+          "Authentication and authorization (JWT, OAuth2, API keys)",
+          "Rate limiting, throttling, and request validation",
+          "Automated API testing with Postman, Jest, and Supertest",
+          "WebSocket and real-time communication protocols"
+        ],
+        "techs": ["Node.js", "NestJS", "GraphQL", "Apollo", "PostgreSQL", "Redis", "Docker", "Swagger", "Postman", "JWT"],
+        "process": [
+          { "title": "Specification", "desc": "We define the API contract with OpenAPI or GraphQL schema first." },
+          { "title": "Prototyping", "desc": "We build a working prototype for early feedback and iteration." },
+          { "title": "Development", "desc": "We implement the API with comprehensive error handling and logging." },
+          { "title": "Documentation", "desc": "We generate interactive documentation with examples and guides." },
+          { "title": "Testing", "desc": "Automated integration, load, and security testing of all endpoints." },
+          { "title": "Deployment", "desc": "CI/CD pipeline setup with canary deployments and rollback capability." }
+        ],
+        "caseStudies": [
+          { "title": "Payment Gateway API", "client": "FinTech Solutions", "result": "250ms average response time", "image": "project-7" },
+          { "title": "Social Media Platform API", "client": "ConnectHub", "result": "10M+ daily API requests", "image": "project-8" },
+          { "title": "IoT Device Management API", "client": "SmartGrid", "result": "99.95% uptime over 12 months", "image": "project-9" }
+        ],
+        "statValues": ["100+", "40+", "8+", "12+"],
+        "testimonials": [
+          { "name": "Emily Zhang", "role": "Engineering Manager, DataSync", "quote": "The API architecture they designed was clean, well-documented, and handled our traffic spikes effortlessly from day one." },
+          { "name": "David Kim", "role": "Lead Developer, CloudBase", "quote": "Their API development process was thorough - comprehensive documentation, automated testing, and seamless integration." }
+        ]
+      },
+      {
+        "longDesc": "Create stunning, responsive user interfaces that delight your users and drive engagement. We specialize in modern frontend ecosystems - React, Next.js, TypeScript, and Tailwind CSS - to build fast, accessible, and beautiful interfaces. Every pixel is crafted with care, and every interaction feels natural.",
+        "features": [
+          "Component-based architecture with React and modern patterns",
+          "Server-side rendering and static site generation with Next.js",
+          "Responsive design that works on every device and screen size",
+          "Accessibility (a11y) compliance with WCAG 2.1 AA standards",
+          "Animation and micro-interactions with Framer Motion and GSAP",
+          "State management with Redux, Zustand, or TanStack Query",
+          "Design system creation and component library development",
+          "Performance optimization with Lighthouse scores of 90+"
+        ],
+        "techs": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Redux", "Storybook", "Jest", "Cypress", "Vite"],
+        "process": [
+          { "title": "UX Research", "desc": "We study user behavior, create personas, and map user journeys." },
+          { "title": "Wireframing", "desc": "Low-fidelity wireframes to establish layout and information architecture." },
+          { "title": "Visual Design", "desc": "High-fidelity mockups with your brand guidelines and design system." },
+          { "title": "Development", "desc": "Component-by-component implementation with live previews." },
+          { "title": "Integration", "desc": "Connecting the frontend to your APIs and backend services." },
+          { "title": "QA and Launch", "desc": "Cross-browser testing, performance audits, and production deployment." }
+        ],
+        "caseStudies": [
+          { "title": "SaaS Dashboard Redesign", "client": "Analytix", "result": "35% improvement in user retention", "image": "project-10" },
+          { "title": "E-Learning Platform UI", "client": "LearnFast", "result": "92% student satisfaction score", "image": "project-11" },
+          { "title": "Fintech Mobile App", "client": "MoneyWise", "result": "4.8 stars on App Store", "image": "project-12" }
+        ],
+        "statValues": ["75+", "45+", "8+", "20+"],
+        "testimonials": [
+          { "name": "Sarah Chen", "role": "CTO, TechFlow Inc.", "quote": "The dashboard redesign was phenomenal - our user engagement metrics improved dramatically within the first month." },
+          { "name": "Marcus Rivera", "role": "Founder, Launchpad Studios", "quote": "They brought a level of design thinking and frontend expertise that completely elevated our product." }
+        ]
+      },
+      {
+        "longDesc": "Elevate your engineering team with experienced technical leadership. From mentoring junior developers to managing sprint cycles and conducting code reviews, I bring 8+ years of hands-on engineering and leadership experience to help your team ship better software, faster. I foster a culture of ownership, quality, and continuous improvement.",
+        "features": [
+          "Technical team leadership and mentorship programs",
+          "Agile sprint planning, standups, and retrospectives",
+          "Code review processes and quality standards establishment",
+          "Architecture decision records (ADRs) and technical documentation",
+          "Onboarding programs for new engineering hires",
+          "Performance reviews and career development planning",
+          "Cross-team coordination and stakeholder communication",
+          "Incident management and post-mortem facilitation"
+        ],
+        "techs": ["React", "Node.js", "TypeScript", "PostgreSQL", "AWS", "Docker", "GitHub Actions", "Jira", "Linear", "Slack API"],
+        "process": [
+          { "title": "Assessment", "desc": "We evaluate your current team dynamics, processes, and technical debt." },
+          { "title": "Planning", "desc": "We create a roadmap for team growth, process improvement, and technical excellence." },
+          { "title": "Implementation", "desc": "We introduce new processes, tools, and practices with team buy-in." },
+          { "title": "Mentoring", "desc": "One-on-one coaching, pair programming, and skill-building sessions." },
+          { "title": "Review", "desc": "Regular retrospectives and metrics review to measure progress." },
+          { "title": "Evolution", "desc": "Continuous refinement of processes based on team feedback and results." }
+        ],
+        "caseStudies": [
+          { "title": "Engineering Team Transformation", "client": "StartupXYZ", "result": "2x velocity after 6 months", "image": "project-13" },
+          { "title": "Code Quality Initiative", "client": "DevPlatform", "result": "80% reduction in production bugs", "image": "project-14" },
+          { "title": "Agile Process Overhaul", "client": "SoftCorp", "result": "On-time delivery rate from 40% to 90%", "image": "project-15" }
+        ],
+        "statValues": ["30+", "20+", "8+", "50+"],
+        "testimonials": [
+          { "name": "Emily Zhang", "role": "Engineering Manager, DataSync", "quote": "Anish's leadership transformed our team's velocity and code quality. The mentoring program he established is still running strong." },
+          { "name": "James Walker", "role": "VP Product, Nebula AI", "quote": "Having Anish lead our engineering team was a game-changer. Delivery predictability went from chaotic to clockwork." }
+        ]
+      },
+      {
+        "longDesc": "Get expert guidance on technology strategy, architecture decisions, and engineering best practices. Whether you are evaluating a new tech stack, scaling your system, or planning a major migration, I provide actionable recommendations backed by years of hands-on experience building production systems.",
+        "features": [
+          "Technology stack evaluation and recommendation reports",
+          "System architecture review and improvement roadmap",
+          "Scalability assessment and capacity planning",
+          "Security audit and vulnerability remediation guidance",
+          "Build vs. buy analysis for third-party services and tools",
+          "Technical due diligence for investors and acquisitions",
+          "Engineering hiring support and technical interview design",
+          "Custom playbooks for engineering operations and best practices"
+        ],
+        "techs": ["TypeScript", "Python", "AWS", "Kubernetes", "PostgreSQL", "MongoDB", "Redis", "Kafka", "Datadog", "Sentry"],
+        "process": [
+          { "title": "Discovery", "desc": "We gather context through stakeholder interviews and codebase analysis." },
+          { "title": "Analysis", "desc": "Deep dive into architecture, code quality, performance, and security." },
+          { "title": "Report", "desc": "A comprehensive report with findings, recommendations, and prioritization." },
+          { "title": "Presentation", "desc": "We present findings to your team with Q&A and discussion." },
+          { "title": "Roadmap", "desc": "We create a phased implementation roadmap with effort estimates." },
+          { "title": "Follow-up", "desc": "Ongoing advisory sessions to support execution and answer questions." }
+        ],
+        "caseStudies": [
+          { "title": "Tech Stack Modernization", "client": "LegacyCorp", "result": "60% faster time-to-market", "image": "project-16" },
+          { "title": "Pre-Seed Technical Audit", "client": "AI Startup", "result": "Secured $2M in funding", "image": "project-17" },
+          { "title": "Scalability Architecture Review", "client": "GrowthWave", "result": "Handles 10x traffic without degradation", "image": "project-18" }
+        ],
+        "statValues": ["60+", "35+", "8+", "25+"],
+        "testimonials": [
+          { "name": "Priya Patel", "role": "CEO, Orbit Software", "quote": "Their strategic guidance on our tech stack decision saved us months of development time and thousands in infrastructure costs." },
+          { "name": "David Kim", "role": "Lead Developer, CloudBase", "quote": "The architecture review was incredibly thorough. They identified issues we had missed and provided a clear roadmap for improvement." }
+        ]
+      }
+    ]
+  }
 }
+

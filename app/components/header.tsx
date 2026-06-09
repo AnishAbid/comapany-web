@@ -5,15 +5,20 @@ import ThemeToggle from "./theme-toggle";
 import { useLocale } from "@/app/components/locale-provider";
 import LocaleSwitch from "./locale-switch";
 
-const navLinks = ["Home", "Services", "About", "Contact"];
-function NavLink({ item }: { item: string }) {
+const navLinks = [
+  { label: "Home", href: "/" },
+  { label: "Services", href: "/services" },
+  { label: "About", href: "/#about" },
+  { label: "Contact", href: "/#contact" },
+];
+function NavLink({ item }: { item: { label: string; href: string } }) {
   const { t } = useLocale();
   return (
     <Link
-      href={item === "Home" ? "/" : "#" + item.toLowerCase()}
+      href={item.href}
       className="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
     >
-      {t("nav." + item.toLowerCase())}
+      {t("nav." + item.label.toLowerCase())}
     </Link>
   );
 }
@@ -29,7 +34,7 @@ export default function Header() {
         </Link>
         <div className="hidden md:flex items-center gap-6">
           {navLinks.map((item) => (
-            <NavLink key={item} item={item} />
+            <NavLink key={item.label} item={item} />
           ))}
           <ThemeToggle />
           <LocaleSwitch />
@@ -50,11 +55,11 @@ export default function Header() {
             <div className="absolute top-full left-0 right-0 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 shadow-lg p-6 flex flex-col gap-4">
               {navLinks.map((item) => (
                 <Link
-                  key={item}
-                  href={item === "Home" ? "/" : "#" + item.toLowerCase()}
+                  key={item.label}
+                  href={item.href}
                   className="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                 >
-                  {item}
+                  {t("nav." + item.label.toLowerCase())}
                 </Link>
               ))}
               <LocaleSwitch className="mb-2" />

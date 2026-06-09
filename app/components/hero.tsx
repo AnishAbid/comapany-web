@@ -14,16 +14,6 @@ export default function HeroSection() {
         <div className="absolute bottom-0 right-0 w-[400px] h-[400px] bg-amber-500/10 dark:bg-amber-500/5 rounded-full blur-[100px]" />
       </div>
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-20 text-center">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-blue-200 dark:border-blue-800 bg-blue-50 dark:bg-blue-950 text-blue-700 dark:text-blue-300 text-sm font-medium mb-8"
-        >
-          <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
-          {t('hero.badge')}
-        </motion.div>
-
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}

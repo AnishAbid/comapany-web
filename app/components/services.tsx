@@ -1,8 +1,10 @@
 "use client";
 
+import Link from "next/link";
 import { motion } from "motion/react";
 import { CloudIcon, AnalyticsIcon, ShieldIcon, CodeIcon, SupportIcon, AutomationIcon } from "./icons";
 import { useLocale } from "@/app/components/locale-provider";
+import { services } from "@/lib/services";
 
 const serviceKeys = ["0", "1", "2", "3", "4", "5"];
 const serviceIcons = [CloudIcon, AnalyticsIcon, ShieldIcon, CodeIcon, SupportIcon, AutomationIcon];
@@ -24,7 +26,8 @@ const cardVariants = {
 };
 
 export default function ServicesSection() {
-  const { t } = useLocale();
+  const { t, locale } = useLocale();
+  const isRtl = locale === "ar";
   return (
     <section id="services" className="py-24 sm:py-32 bg-slate-50 dark:bg-slate-900/50">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
@@ -55,11 +58,17 @@ export default function ServicesSection() {
                 variants={cardVariants}
                 className="group relative p-8 rounded-2xl bg-white dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/50 hover:border-blue-200 dark:hover:border-blue-800 hover:shadow-xl hover:shadow-blue-500/5 transition-all duration-300"
               >
+                <Link href={"/services/" + services[idx].slug} className="block h-full flex flex-col">
                 <div className="w-14 h-14 rounded-xl bg-blue-50 dark:bg-blue-950 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform duration-300">
                   <Icon />
                 </div>
-                <h3 className="text-lg font-semibold text-slate-900 dark:text-white mb-3">{t('services.items.' + key + '.title')}</h3>
-                <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">{t('services.items.' + key + '.desc')}</p>
+                <h3 className="text-lg font-semibold text-slate-900 dark:text-white mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">{t('services.items.' + key + '.title')}</h3>
+                <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed mb-2">{t('services.items.' + key + '.desc')}</p>
+                <p className="text-sm text-slate-500 dark:text-slate-500 leading-relaxed mb-3 line-clamp-2">{t('services.items.' + key + '.preview')}</p>
+                <p className="text-xs text-blue-600 dark:text-blue-400 font-medium group-hover:translate-x-1 transition-transform duration-200 mt-auto">
+                  {isRtl ? '← المزيد' : 'Learn more →'}
+                </p>
+              </Link>
               </motion.div>
             );
           })}
